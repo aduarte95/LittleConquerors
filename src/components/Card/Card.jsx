@@ -24,7 +24,7 @@ function Card({facts, cont, totalFacts, setCont}) {
                         </div>
                     
                         <div className="d-flex justify-content-center">
-                            <p className="fact-card-container__text" key={`fact-${i}`}>{fact.fact}</p>
+                            <p className="fact-card-container__text" key={`fact-${i}`}>{fact}</p>
                         </div>
                 </div>
           })
